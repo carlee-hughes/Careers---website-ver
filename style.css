@@ -1,0 +1,216 @@
+/*style*/
+
+/*index and top title, header, footer*/ 
+
+#header {
+    text-align:right;
+    background-color:rgb(46, 33, 87);
+
+    #toptitle {
+        color:rgb(253, 55, 119);
+        font-size:30px;
+        text-align:right;
+        font-family:"Sixtyfour Convergence", sans-serif;
+        margin-right:10px;
+    }
+
+    a {
+        font-size:20px;
+        font-family: "Abril Fatface", sans-serif;
+    }
+
+    hr {
+        height: 1px;
+        background-color:blueviolet;
+        border: none;
+    }
+}
+
+.footer {
+    background-color:rgb(46, 33, 87);
+
+    hr {
+        height: 1px;
+        background-color:blueviolet;
+        border: none;
+    }
+}
+
+/* page header images */
+#frontimg {
+    color:blanchedalmond;
+    background-image: url(./images/frontimg.png);
+    background-attachment:fixed;
+    width:100%;
+}
+
+#careersimg {
+    color:blanchedalmond;
+    background-image: url(./images/careersimg.png);
+    background-attachment:fixed;
+    width:100%;
+}
+
+#oppsimg {
+    color:blanchedalmond;
+    background-image: url(./images/office.png);
+    background-attachment:fixed;
+    width:100%;
+}
+
+#skillsimg {
+    color:blanchedalmond;
+    background-image: url(./images/essentialskills.png);
+    background-attachment:fixed;
+    width:100%;
+}
+
+#sourcesimg {
+    color:blanchedalmond;
+    background-image: url(./images/sources.png);
+    background-attachment:fixed;
+    width:100%;
+}
+
+#supportimg {
+    color:blanchedalmond;
+    background-image: url(./images/typing.png);
+    background-attachment:fixed;
+    width:100%;
+}
+
+#uniimg {
+    color:blanchedalmond;
+    background-image: url(./images/postsecondary.png);
+    background-attachment:fixed;
+    width:100%;
+}
+
+/* general images */
+
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Cimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Cimg:hover {
+    width:55%;
+    height:55%;
+}
+
+.Oimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Oimg:hover {
+    width:985px;
+    height:625px;
+}
+
+.Uimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Uimg:hover {
+    width:1050px;
+    height:650px;
+}
+
+.Simg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Simg:hover {
+    width:622px;
+    height:380px;
+}
+
+
+/* text */
+
+.pageheaders {
+    text-align:center;
+    font-size:50px;
+}
+
+.pageindex {
+    text-align:center;
+    font-size:20px;
+}
+
+.list_title {
+    font-weight:bold;
+    color:rgb(238, 111, 196);
+}
+
+h1 {
+    color:rgb(253, 55, 119);
+    text-align:center;
+    font-family: "Abril Fatface", sans-serif;
+}
+
+h2 {
+    color:rgb(247, 6, 207);
+}
+
+h3 {
+    color:rgb(247, 6, 207);
+}
+
+body {
+    background-image: url(./images/bg.png);
+    background-attachment:fixed;
+    background-color:rgb(30, 19, 43);
+    color:rgb(233, 188, 226);
+    font-family: "Outfit", sans-serif;
+    font-weight:400;
+    font-style:bold;
+    font-size:20px;
+}
+
+p, ul, ol, h3, h2, table, .fees {
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+
+/* tables */ 
+
+table, th, td {
+    border: 1px solid rgb(238, 111, 196);
+    text-align:center;
+}
+
+tr:hover {
+    background-color:rgb(238, 111, 196);
+    color:rgb(30, 19, 43);
+}
+
+td {
+    length: 90px;
+    width: 100px;
+}
+
+/* links */
+
+a {
+    color:rgb(126, 113, 168);
+    text-decoration:none;
+}
+
+a:hover {
+    color:rgb(255, 0, 64);
+}
